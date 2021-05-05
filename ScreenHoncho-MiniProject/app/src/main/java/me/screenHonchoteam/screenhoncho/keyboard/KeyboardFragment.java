@@ -50,32 +50,32 @@ public class KeyboardFragment extends Fragment implements View.OnTouchListener, 
     }
 
     private void initialization(View rootView) {
-        typeHereEditText = (EditText) rootView.findViewById(me.varunon9.remotecontrolpc.R.id.typeHereEditText);
-        ctrlButton = (Button) rootView.findViewById(me.varunon9.remotecontrolpc.R.id.ctrlButton);
-        altButton = (Button) rootView.findViewById(me.varunon9.remotecontrolpc.R.id.altButton);
-        shiftButton = (Button) rootView.findViewById(me.varunon9.remotecontrolpc.R.id.shiftButton);
-        enterButton = (Button) rootView.findViewById(me.varunon9.remotecontrolpc.R.id.enterButton);
-        tabButton = (Button) rootView.findViewById(me.varunon9.remotecontrolpc.R.id.tabButton);
-        escButton = (Button) rootView.findViewById(me.varunon9.remotecontrolpc.R.id.escButton);
-        printScrButton = (Button) rootView.findViewById(me.varunon9.remotecontrolpc.R.id.printScrButton);
-        backspaceButton = (Button) rootView.findViewById(me.varunon9.remotecontrolpc.R.id.backspaceButton);
-        deleteButton = (Button) rootView.findViewById(me.varunon9.remotecontrolpc.R.id.deleteButton);
-        clearTextButton = (Button) rootView.findViewById(me.varunon9.remotecontrolpc.R.id.clearTextButton);
-        nButton = (Button) rootView.findViewById(me.varunon9.remotecontrolpc.R.id.nButton);
-        tButton = (Button) rootView.findViewById(me.varunon9.remotecontrolpc.R.id.tButton);
-        wButton = (Button) rootView.findViewById(me.varunon9.remotecontrolpc.R.id.wButton);
-        rButton = (Button) rootView.findViewById(me.varunon9.remotecontrolpc.R.id.rButton);
-        fButton = (Button) rootView.findViewById(me.varunon9.remotecontrolpc.R.id.fButton);
-        zButton = (Button) rootView.findViewById(me.varunon9.remotecontrolpc.R.id.zButton);
-        cButton = (Button) rootView.findViewById(me.varunon9.remotecontrolpc.R.id.cButton);
-        xButton = (Button) rootView.findViewById(me.varunon9.remotecontrolpc.R.id.xButton);
-        vButton = (Button) rootView.findViewById(me.varunon9.remotecontrolpc.R.id.vButton);
-        aButton = (Button) rootView.findViewById(me.varunon9.remotecontrolpc.R.id.aButton);
-        oButton = (Button) rootView.findViewById(me.varunon9.remotecontrolpc.R.id.oButton);
-        sButton = (Button) rootView.findViewById(me.varunon9.remotecontrolpc.R.id.sButton);
-        ctrlAltTButton = (Button) rootView.findViewById(me.varunon9.remotecontrolpc.R.id.ctrlAltTButton);
-        ctrlShiftZButton = (Button) rootView.findViewById(me.varunon9.remotecontrolpc.R.id.ctrlShiftZButton);
-        altF4Button = (Button) rootView.findViewById(me.varunon9.remotecontrolpc.R.id.altF4Button);
+        typeHereEditText = (EditText) rootView.findViewById(me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.typeHereEditText);
+        ctrlButton = (Button) rootView.findViewById(me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.ctrlButton);
+        altButton = (Button) rootView.findViewById(me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.altButton);
+        shiftButton = (Button) rootView.findViewById(me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.shiftButton);
+        enterButton = (Button) rootView.findViewById(me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.enterButton);
+        tabButton = (Button) rootView.findViewById(me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.tabButton);
+        escButton = (Button) rootView.findViewById(me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.escButton);
+        printScrButton = (Button) rootView.findViewById(me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.printScrButton);
+        backspaceButton = (Button) rootView.findViewById(me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.backspaceButton);
+        deleteButton = (Button) rootView.findViewById(me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.deleteButton);
+        clearTextButton = (Button) rootView.findViewById(me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.clearTextButton);
+        nButton = (Button) rootView.findViewById(me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.nButton);
+        tButton = (Button) rootView.findViewById(me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.tButton);
+        wButton = (Button) rootView.findViewById(me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.wButton);
+        rButton = (Button) rootView.findViewById(me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.rButton);
+        fButton = (Button) rootView.findViewById(me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.fButton);
+        zButton = (Button) rootView.findViewById(me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.zButton);
+        cButton = (Button) rootView.findViewById(me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.cButton);
+        xButton = (Button) rootView.findViewById(me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.xButton);
+        vButton = (Button) rootView.findViewById(me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.vButton);
+        aButton = (Button) rootView.findViewById(me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.aButton);
+        oButton = (Button) rootView.findViewById(me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.oButton);
+        sButton = (Button) rootView.findViewById(me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.sButton);
+        ctrlAltTButton = (Button) rootView.findViewById(me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.ctrlAltTButton);
+        ctrlShiftZButton = (Button) rootView.findViewById(me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.ctrlShiftZButton);
+        altF4Button = (Button) rootView.findViewById(me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.altF4Button);
         ctrlButton.setOnTouchListener(this);
         altButton.setOnTouchListener(this);
         shiftButton.setOnTouchListener(this);
@@ -113,13 +113,13 @@ public class KeyboardFragment extends Fragment implements View.OnTouchListener, 
         }
         int keyCode = 17;//dummy initialization
         switch (v.getId()) {
-            case me.varunon9.remotecontrolpc.R.id.ctrlButton:
+            case me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.ctrlButton:
                 keyCode = 17;
                 break;
-            case me.varunon9.remotecontrolpc.R.id.altButton:
+            case me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.altButton:
                 keyCode = 18;
                 break;
-            case me.varunon9.remotecontrolpc.R.id.shiftButton:
+            case me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.shiftButton:
                 keyCode = 16;
                 break;
         }
@@ -129,18 +129,18 @@ public class KeyboardFragment extends Fragment implements View.OnTouchListener, 
     @Override
     public void onClick(View v) {
         int id = v.getId();
-        if (id == me.varunon9.remotecontrolpc.R.id.clearTextButton) {
+        if (id == me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.clearTextButton) {
             typeHereEditText.setText("");
-        } else if (id == me.varunon9.remotecontrolpc.R.id.ctrlAltTButton || id == me.varunon9.remotecontrolpc.R.id.ctrlShiftZButton || id == me.varunon9.remotecontrolpc.R.id.altF4Button) {
+        } else if (id == me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.ctrlAltTButton || id == me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.ctrlShiftZButton || id == me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.altF4Button) {
             String message = "CTRL_SHIFT_Z";
             switch (id) {
-                case me.varunon9.remotecontrolpc.R.id.ctrlAltTButton:
+                case me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.ctrlAltTButton:
                     message = "CTRL_ALT_T";
                     break;
-                case me.varunon9.remotecontrolpc.R.id.ctrlShiftZButton:
+                case me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.ctrlShiftZButton:
                     message = "CTRL_SHIFT_Z";
                     break;
-                case me.varunon9.remotecontrolpc.R.id.altF4Button:
+                case me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.altF4Button:
                     message = "ALT_F4";
                     break;
             }
@@ -149,58 +149,58 @@ public class KeyboardFragment extends Fragment implements View.OnTouchListener, 
             int keyCode = 17;//dummy initialization
             String action = "TYPE_KEY";
             switch (id) {
-                case me.varunon9.remotecontrolpc.R.id.enterButton:
+                case me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.enterButton:
                     keyCode = 10;
                     break;
-                case me.varunon9.remotecontrolpc.R.id.tabButton:
+                case me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.tabButton:
                     keyCode = 9;
                     break;
-                case me.varunon9.remotecontrolpc.R.id.escButton:
+                case me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.escButton:
                     keyCode = 27;
                     break;
-                case me.varunon9.remotecontrolpc.R.id.printScrButton:
+                case me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.printScrButton:
                     keyCode = 154;
                     break;
-                case me.varunon9.remotecontrolpc.R.id.deleteButton:
+                case me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.deleteButton:
                     keyCode = 127;
                     break;
-                case me.varunon9.remotecontrolpc.R.id.nButton:
+                case me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.nButton:
                     keyCode = 78;
                     break;
-                case me.varunon9.remotecontrolpc.R.id.tButton:
+                case me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.tButton:
                     keyCode = 84;
                     break;
-                case me.varunon9.remotecontrolpc.R.id.wButton:
+                case me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.wButton:
                     keyCode = 87;
                     break;
-                case me.varunon9.remotecontrolpc.R.id.rButton:
+                case me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.rButton:
                     keyCode = 82;
                     break;
-                case me.varunon9.remotecontrolpc.R.id.fButton:
+                case me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.fButton:
                     keyCode = 70;
                     break;
-                case me.varunon9.remotecontrolpc.R.id.zButton:
+                case me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.zButton:
                     keyCode = 90;
                     break;
-                case me.varunon9.remotecontrolpc.R.id.cButton:
+                case me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.cButton:
                     keyCode = 67;
                     break;
-                case me.varunon9.remotecontrolpc.R.id.xButton:
+                case me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.xButton:
                     keyCode = 88;
                     break;
-                case me.varunon9.remotecontrolpc.R.id.vButton:
+                case me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.vButton:
                     keyCode = 86;
                     break;
-                case me.varunon9.remotecontrolpc.R.id.aButton:
+                case me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.aButton:
                     keyCode = 65;
                     break;
-                case me.varunon9.remotecontrolpc.R.id.oButton:
+                case me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.oButton:
                     keyCode = 79;
                     break;
-                case me.varunon9.remotecontrolpc.R.id.sButton:
+                case me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.sButton:
                     keyCode = 83;
                     break;
-                case me.varunon9.remotecontrolpc.R.id.backspaceButton:
+                case me.screenHonchoteam.screenhoncho.remotecontrolpc.R.id.backspaceButton:
                     keyCode = 8;
                     break;
             }
