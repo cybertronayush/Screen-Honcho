@@ -13,8 +13,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 
-import me.varunon9.remotecontrolpc.MainActivity;
-import me.varunon9.remotecontrolpc.R;
+import  me.screenHonchoteam.screenhoncho.keyboard.MainActivity;
+import  me.screenHonchoteam.screenhoncho.keyboard.R;
 
 /**
  * A simple {@link Fragment} subclass.
