@@ -1,6 +1,5 @@
 package me.screenHonchoteam.screenhoncho.presentation;
 
-
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -9,8 +8,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import me.varunon9.remotecontrolpc.MainActivity;
-import me.varunon9.remotecontrolpc.R;
+import me.screenHonchoteam.screenhoncho.MainActivity;
+import me.screenHonchoteam.screenhoncho.R;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -20,7 +19,7 @@ public class PresentationFragment extends Fragment implements View.OnClickListen
     private Button downArrowButton, upArrowButton, f5Button, leftArrowButton, rightArrowButton;
 
     public PresentationFragment() {
-        // Required empty public constructor
+
     }
 
 
@@ -72,7 +71,9 @@ public class PresentationFragment extends Fragment implements View.OnClickListen
         sendActionToServer(action);
 
     }
-    private void sendActionToServer(String action) {
+
+    private void sendActionToServer(String action)
+    {
         MainActivity.sendMessageToServer(action);
     }
 

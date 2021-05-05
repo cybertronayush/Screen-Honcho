@@ -1,4 +1,4 @@
-package remotecontrolpc;
+package ScreenHoncho;
 
 import filesharing.Screenshot;
 import image.ImageViewer;
@@ -20,10 +20,7 @@ import mousekeyboardcontrol.MouseKeyboardControl;
 import poweroff.PowerOff;
 import music.MusicPlayer;
 
-/**
- *
- * @author varun
- */
+
 
 public class Server {
     
