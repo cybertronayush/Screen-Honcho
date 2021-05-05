@@ -6,9 +6,9 @@ import java.io.File;
 import java.util.ArrayList;
 
 import file.AvatarFile;
-import me.varunon9.remotecontrolpc.CallbackReceiver;
-import me.varunon9.remotecontrolpc.R;
-import me.varunon9.remotecontrolpc.Utility;
+import me.screenHonchoteam.screenhoncho.CallbackReceiver;
+import me.screenHonchoteam.screenhoncho.R;
+import me.screenHonchoteam.screenhoncho.Utility;
 
 /*
  * The three types used by an asynchronous task are the following:

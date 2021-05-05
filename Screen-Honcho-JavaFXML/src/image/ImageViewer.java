@@ -1,7 +1,7 @@
 package image;
 
 
-import static remotecontrolpc.MainScreenController.mainScreenController;
+import static ScreenHoncho.MainScreenController.mainScreenController;
 
 
 

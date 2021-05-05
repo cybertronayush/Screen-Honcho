@@ -6,7 +6,7 @@ import android.widget.ListView;
 import java.util.ArrayList;
 
 import file.AvatarFile;
-import me.varunon9.remotecontrolpc.AvatarFileAdapter;
+import me.screenHonchoteam.screenhoncho.AvatarFileAdapter;
 
 class GetFilesList extends FilesList {
     ListView fileTransferListView;
@@ -19,7 +19,7 @@ class GetFilesList extends FilesList {
 	public void receiveData(Object result) {
 		ArrayList<AvatarFile> filesInFolder = (ArrayList<AvatarFile>) result;
 		fileTransferListView.setAdapter(new AvatarFileAdapter(context,
-				me.varunon9.remotecontrolpc.R.layout.music_image_avatar, filesInFolder));
+				me.screenHonchoteam.screenhoncho.R.layout.music_image_avatar, filesInFolder));
 		
 	}
 	

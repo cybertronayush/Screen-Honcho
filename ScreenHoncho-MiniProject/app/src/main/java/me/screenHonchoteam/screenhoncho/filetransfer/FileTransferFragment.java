@@ -16,9 +16,9 @@ import android.widget.Toast;
 import java.io.File;
 
 import file.AvatarFile;
-import me.varunon9.remotecontrolpc.FileAPI;
-import me.varunon9.remotecontrolpc.MainActivity;
-import me.varunon9.remotecontrolpc.R;
+import me.screenHonchoteam.screenhoncho.FileAPI;
+import me.screenHonchoteam.screenhoncho.MainActivity;
+import me.screenHonchoteam.screenhoncho.R;
 
 /**
  * A simple {@link Fragment} subclass.

@@ -14,9 +14,9 @@ import android.widget.Toast;
 
 import java.net.Socket;
 
-import me.varunon9.remotecontrolpc.MainActivity;
-import me.varunon9.remotecontrolpc.R;
-import me.varunon9.remotecontrolpc.server.Server;
+import me.screenHonchoteam.screenhoncho.MainActivity;
+import me.screenHonchoteam.screenhoncho.R;
+import me.screenHonchoteam.screenhoncho.server.Server;
 
 
 public class ConnectFragment extends Fragment {

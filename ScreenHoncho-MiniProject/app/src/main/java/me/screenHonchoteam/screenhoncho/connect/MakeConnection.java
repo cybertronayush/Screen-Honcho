@@ -9,8 +9,8 @@ import java.net.InetSocketAddress;
 import java.net.Socket;
 import java.net.SocketAddress;
 
-import me.varunon9.remotecontrolpc.CallbackReceiver;
-import me.varunon9.remotecontrolpc.MainActivity;
+import me.screenHonchoteam.screenhoncho.CallbackReceiver;
+import me.screenHonchoteam.screenhoncho.MainActivity;
 
 public abstract class MakeConnection extends AsyncTask<Void, Void, Socket> implements CallbackReceiver {
 

@@ -180,7 +180,7 @@ public class Server {
                             case "PLAY_MUSIC":
                                 fileName = (String) MainScreenController.objectInputStream.readObject();
                                 filePath = new FileAPI().getHomeDirectoryPath();
-                                filePath = filePath + "/RemoteControlPC/" + fileName;
+                                filePath = filePath + "/ScreenHoncho/" + fileName;
                                 try {
                                     musicPlayer.playNewMedia(filePath);
                                     showMessage("Playing: " + fileName);
@@ -205,7 +205,7 @@ public class Server {
                             case "SHOW_IMAGE":
                                 fileName = (String) MainScreenController.objectInputStream.readObject();
                                 filePath = new FileAPI().getHomeDirectoryPath();
-                                filePath = filePath + "/RemoteControlPC/" + fileName;
+                                filePath = filePath + "/ScreenHoncho/" + fileName;
                                 imageViewer.showImage(fileName, filePath);
                                 break; 
                             case "CLOSE_IMAGE_VIEWER":
