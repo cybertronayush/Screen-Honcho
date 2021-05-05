@@ -5,9 +5,6 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.ObjectOutputStream;
 
-/**
- * Created by varun on 2/8/17.
- */
 
 public class TransferFileToPC {
 

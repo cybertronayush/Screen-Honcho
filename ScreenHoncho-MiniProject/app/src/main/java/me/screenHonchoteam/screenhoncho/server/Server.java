@@ -1,7 +1,7 @@
 package me.screenHonchoteam.screenhoncho.server;
 
 /**
- * Created by rohit.
+ * Created by Ayush.
  */
 
 import android.app.Activity;
@@ -16,8 +16,8 @@ import java.net.Socket;
 import java.util.ArrayList;
 
 import file.AvatarFile;
-import me.varunon9.remotecontrolpc.filetransfer.FilesList;
-import me.varunon9.remotecontrolpc.filetransfer.SendFilesList;
+import me.screenHonchoteam.screenhoncho.FilesList;
+import me.screenHonchoteam.screenhoncho.SendFilesList;
 
 /**
  * This class will create a ServerSocket and connect to PC
